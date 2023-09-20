@@ -22,14 +22,14 @@ img {
     justify-content: space-around;
     margin:auto;
     align-items: center;
-    background-color: #e56e23;
+    background-color: #FF577F;
 
 }
 
 .card{
     height: 50vh;
     width: 27%;
-    background-color: rgba(65,65,65,0.3);
+    background-color: #FF884B;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -45,12 +45,16 @@ img {
 }
 
 .card-title {
+    font-family: FreeMono, monospace;
     font-size: 2.2rem;
     margin-top: 2rem;
-    color: #efe1bb;
+    color: #FFF9B0;
 }
 
 .card-price{
     font-size:1.2rem;
-    color: #efe1bb;
+    color: #FFF9B0;
+    font-family: FreeMono, monospace;
+
 }
+
