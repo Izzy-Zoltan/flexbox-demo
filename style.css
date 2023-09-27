@@ -5,7 +5,6 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 .container{
@@ -71,5 +70,8 @@ html,
     margin-top: 2rem;
     color: #FFF9B0;
     text-shadow: 1px 1px 3px rgb(44, 0, 42);
+    background-color: #FF577F;
+    margin:auto;
+    align-items: center;
 
 }
