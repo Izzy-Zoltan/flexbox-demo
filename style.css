@@ -75,3 +75,9 @@ html,
     align-items: center;
 
 }
+
+/*IDS FOR ANIMATIONS*/
+
+#pic1{
+    transition: all 0.3s;
+}
