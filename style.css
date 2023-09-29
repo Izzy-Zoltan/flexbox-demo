@@ -38,7 +38,6 @@ html,
 }
 
 
-
 .card-img{
     float: left;
     width:  75%;
@@ -78,9 +77,6 @@ html,
 
 /*IDS FOR ANIMATIONS*/
 
-#pic1{
-    transition: all 0.3s;
-}
 
 
 @media screen and (max-width: 1200px) {
@@ -99,4 +95,71 @@ html,
     width: 100%;
     
 }
+}
+
+#pic1{
+    transition: all 0.3s;
+}
+
+#pic1:hover{
+    background-color: #fd6565;
+}
+
+#pic2{
+    transition: all 0.3s;
+}
+
+#pic2:hover{
+    transform: rotate(360deg);
+}
+
+#pic3{
+    transition: all 0.3s;
+}
+
+#pic3:hover{
+    transform: scale(0.75);
+}
+
+#pic4{
+    transition: all 0.3s;
+}
+
+#pic4:hover{
+    transform: translate(3000px, 20000px)
+}
+
+#pic5{
+    transition: all 0.3s;
+}
+
+#pic5:hover{
+    background-color:#fd656500;
+    text-shadow: 0px 0px 0px #fd656500;
+}
+
+
+@keyframes animation {
+    0%   {background-color:rgb(255, 0, 0);}
+    50% {background-color: rgb(153, 0, 255);}
+    100%   {background-color:rgb(255, 0, 0);}
+  }
+
+.cardanimated{
+    animation:animation 5s infinite;
+    height: 50vh;
+    width: 21%;
+    background-color: #FF884B;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 0rem;
+    box-shadow:2px 2px 10px 2px rgb(44, 0, 42);
+    transition: all 0.3s;
+}
+
+.cardanimated:hover{
+    background-color: #fd9765;
+    transform: scale(1.1);
 }
