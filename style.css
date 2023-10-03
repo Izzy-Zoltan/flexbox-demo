@@ -83,9 +83,15 @@ html,
     .card {
     width: 30%;
 }
+    .cardanimated {
+    width: 30%;
+}
 }
 @media screen and (max-width: 1000px) {
     .card {
+    width: 40%;
+}
+.cardanimated {
     width: 40%;
 }
 }
@@ -94,6 +100,9 @@ html,
     .card {
     width: 100%;
     
+}
+    .cardanimated {
+    width: 100%;
 }
 }
 
