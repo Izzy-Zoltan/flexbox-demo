@@ -83,15 +83,9 @@ html,
     .card {
     width: 30%;
 }
-    .cardanimated {
-    width: 30%;
-}
 }
 @media screen and (max-width: 1000px) {
     .card {
-    width: 40%;
-}
-    .cardanimated {
     width: 40%;
 }
 }
@@ -100,9 +94,6 @@ html,
     .card {
     width: 100%;
     
-}
-    .cardanimated {
-    width: 100%;
 }
 }
 
@@ -154,17 +145,8 @@ html,
     100%   {background-color:rgb(255, 0, 0);}
   }
 
-.cardanimated{
+#cardanimated{
     animation:animation 5s infinite;
-    height: 50vh;
-    width: 21%;
-    background-color: #FF884B;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2.5rem 0rem;
-    box-shadow:2px 2px 10px 2px rgb(44, 0, 42);
     transition: all 0.3s;
 }
 
